@@ -1,0 +1,22 @@
+Started by user [8mha:////4DjpXjMkox/GgTVl5xjHBLNxGQJ8wBeoZCwxsfz9JYxqAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgY+/dLi1CL9JKDm+PLUTACkdhaSwwAAAA==[0mbingwei_Lai
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Jenkins-github
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/Jenkins-github/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/BingweiLai/jenkins.git # timeout=10
+Fetching upstream changes from https://github.com/BingweiLai/jenkins.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/BingweiLai/jenkins.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 80d83eb3e08f2a8e4fa245e88cadfe25bec93f33 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 80d83eb3e08f2a8e4fa245e88cadfe25bec93f33 # timeout=10
+Commit message: "jenkins"
+ > git rev-list --no-walk 80d83eb3e08f2a8e4fa245e88cadfe25bec93f33 # timeout=10
+[Jenkins-github] $ /bin/sh -xe /tmp/jenkins7679113034290974725.sh
++ find . -type f -name *yaml
+Send message to channel: xP-CwK...
+Finished: SUCCESS

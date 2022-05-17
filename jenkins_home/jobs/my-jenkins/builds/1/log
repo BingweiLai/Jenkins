@@ -1,0 +1,14 @@
+Started by user [8mha:////4DjpXjMkox/GgTVl5xjHBLNxGQJ8wBeoZCwxsfz9JYxqAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgY+/dLi1CL9JKDm+PLUTACkdhaSwwAAAA==[0mbingwei_Lai
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/my-jenkins
+[my-jenkins] $ /bin/sh -xe /tmp/jenkins13829597493148472876.sh
++ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+overlay          59G  9.3G   47G  17% /
+tmpfs            64M     0   64M   0% /dev
+shm              64M     0   64M   0% /dev/shm
+grpcfuse        466G  105G  362G  23% /var/jenkins_home
+/dev/vda1        59G  9.3G   47G  17% /etc/hosts
+tmpfs           3.9G     0  3.9G   0% /proc/acpi
+tmpfs           3.9G     0  3.9G   0% /sys/firmware
+Finished: SUCCESS

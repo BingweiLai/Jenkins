@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: me
+Build-Jdk: 1.8.0_242
+Extension-Name: notify-events
+Specification-Title: This plugin allows you to send messages from Jenk
+ ins jobs to Telegram, Viber, Skype, SMS, Voice Call and many others.
+Implementation-Title: notify-events
+Implementation-Version: 1.6.2
+Group-Id: events.notify
+Short-Name: notify-events
+Long-Name: Notify.Events
+Url: https://github.com/jenkinsci/notify-events-plugin
+Minimum-Java-Version: 1.8
+Plugin-Version: 1.6.2
+Hudson-Version: 2.130
+Jenkins-Version: 2.130
+Plugin-Dependencies: token-macro:2.12
+Plugin-Developers: 
+
