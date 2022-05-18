@@ -1,0 +1,13 @@
+Started on May 18, 2022, 1:58:44 AM
+Started by event from 140.82.115.144 ⇒ https://7825-111-235-135-57.in.ngrok.io:8080/github-webhook/ on Wed May 18 01:58:44 UTC 2022
+Using strategy: Default
+[poll] Last Built Revision: Revision 9f29411c2054a903f922c08c0416b9107aa4adca (refs/remotes/origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git ls-remote -h -- https://github.com/BingweiLai/jenkins-github.git # timeout=10
+Found 1 remote heads on https://github.com/BingweiLai/jenkins-github.git
+[poll] Latest remote head revision on refs/heads/master is: c9fcd4def9320b31a82a53c4f7b41f7a015a732c
+Done. Took 0.71 sec
+Changes found
