@@ -1,0 +1,6 @@
+Started by user [8mha:////4DjpXjMkox/GgTVl5xjHBLNxGQJ8wBeoZCwxsfz9JYxqAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgY+/dLi1CL9JKDm+PLUTACkdhaSwwAAAA==[0mbingwei_Lai
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Jenkins-github
+[Jenkins-github] $ /bin/sh -xe /tmp/jenkins8066608441315184258.sh
++ find . -type f -name *yaml
+Finished: SUCCESS
