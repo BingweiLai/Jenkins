@@ -1,0 +1,28 @@
+Started by GitHub push by BingweiLai
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Jenkins-github
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/Jenkins-github/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/BingweiLai/jenkins-github.git # timeout=10
+Fetching upstream changes from https://github.com/BingweiLai/jenkins-github.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/BingweiLai/jenkins-github.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 5abfec06441939df130e10822df07d0e6992479e (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5abfec06441939df130e10822df07d0e6992479e # timeout=10
+Commit message: "test"
+ > git rev-list --no-walk c9fcd4def9320b31a82a53c4f7b41f7a015a732c # timeout=10
+[Jenkins-github] $ /bin/sh -xe /tmp/jenkins14500413951410367753.sh
++ find . -type f -name *yaml
++ yamllint ./docker-compose.yaml
+./docker-compose.yaml
+  9:20      error    trailing spaces  (trailing-spaces)
+  13:7      error    no new line character at the end of file  (new-line-at-end-of-file)
+  13:1      error    trailing spaces  (trailing-spaces)
+
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
