@@ -1,0 +1,28 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Jenkins-github
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/Jenkins-github/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/BingweiLai/jenkins-github.git # timeout=10
+Fetching upstream changes from https://github.com/BingweiLai/jenkins-github.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/BingweiLai/jenkins-github.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 9f29411c2054a903f922c08c0416b9107aa4adca (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9f29411c2054a903f922c08c0416b9107aa4adca # timeout=10
+Commit message: "test"
+First time build. Skipping changelog.
+[Jenkins-github] $ /bin/sh -xe /tmp/jenkins6678841466581571826.sh
++ find . -type f -name *yaml
++ yamllint ./docker-compose.yaml
+./docker-compose.yaml
+  1:1       warning  missing document start "---"  (document-start)
+  9:20      error    trailing spaces  (trailing-spaces)
+  12:41     error    no new line character at the end of file  (new-line-at-end-of-file)
+
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

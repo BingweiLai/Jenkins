@@ -3,7 +3,7 @@
   <configs>
     <github-server-config>
       <apiUrl>https://api.github.com</apiUrl>
-      <manageHooks>false</manageHooks>
+      <manageHooks>true</manageHooks>
       <credentialsId>204b3bbe-5d78-4c34-8d45-86c5fefcf56b</credentialsId>
       <clientCacheSize>20</clientCacheSize>
     </github-server-config>
