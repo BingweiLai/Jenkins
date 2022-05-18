@@ -1,0 +1,21 @@
+commit fdc47c7f9460497df8d9856c1d601ad0bdcd92bb
+tree ed7f23227196232a21e7dc1c2a63ab7df018ac34
+parent 8c98346b1659b01c1ed07058feee0b7990732c4f
+author BingweiLai <0624076@nkust.edu.tw> 2022-05-18 10:19:16 +0800
+committer BingweiLai <0624076@nkust.edu.tw> 2022-05-18 10:19:16 +0800
+
+    test
+
+
+:100644 100644 b7f925edcd9122a9abcf22aaaa47edfd18c4d797 532caa084c31e3103fda22b8e62af21edd23f61c M	docker-compose.yaml
+:000000 100644 0000000000000000000000000000000000000000 58f3ba32c82d67fda01b81a0100ef03663a0b72a A	jenkins_home/jobs/Jenkins-github/builds/12/build.xml
+:000000 100644 0000000000000000000000000000000000000000 d5cde7f6a7161fba720181b85e3de11ecbc907b2 A	jenkins_home/jobs/Jenkins-github/builds/12/changelog.xml
+:000000 100644 0000000000000000000000000000000000000000 c12abf0395218fd249b592ae05ea3237e118b018 A	jenkins_home/jobs/Jenkins-github/builds/12/log
+:000000 100644 0000000000000000000000000000000000000000 e7b869ee1ac12a2081741116839e0f3a52c09f00 A	jenkins_home/jobs/Jenkins-github/builds/12/polling.log
+:100644 100644 73e47dd0b0e50eabd2eb48c4b7e3cbbcfdebb104 8d3987986b10f9d20b3ef9c30811de4c6971c943 M	jenkins_home/jobs/Jenkins-github/builds/permalinks
+:100644 100644 18082c4ed964cf6580a7ffc0aa5429eacfbbd765 e7b869ee1ac12a2081741116839e0f3a52c09f00 M	jenkins_home/jobs/Jenkins-github/github-polling.log
+:100644 100644 48082f72f087ce7e6fa75b9c41d7387daecd447b b1bd38b62a0800a4f6a80c34e21c5acffae52c7e M	jenkins_home/jobs/Jenkins-github/nextBuildNumber
+:100644 100644 29bab2212638bcdf2d098a4cdcad53db55b7ac55 ea0e7796b8e4fc44baa155b08a978fc5cb86c7bd M	jenkins_home/logs/jenkins.branch.MultiBranchProject.log
+:100644 100644 e210e9d8b2f4d617597681c5d0f730b7b42a9ec2 1e09c1f88dcb991d03733ce550ed23dfd945d2a5 M	jenkins_home/logs/jenkins.branch.OrganizationFolder.log
+:100644 100644 b956704e076714a69c5cb12f21360d82d0ee5dbf 6123d3dcaaf9089e905cfd058957b4dd6817baeb M	jenkins_home/queue.xml
+:160000 160000 5abfec06441939df130e10822df07d0e6992479e 8c98346b1659b01c1ed07058feee0b7990732c4f M	jenkins_home/workspace/Jenkins-github
